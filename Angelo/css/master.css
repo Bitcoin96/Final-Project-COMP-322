@@ -1,7 +1,8 @@
-body, html{
-  height:100%;
+body, html {
+  height: 100%;
 }
-  /*body {
+
+/*body {
 background-image: url('../assets/index-background-2.jpeg');
   background-color: black;
   background-size: cover;
@@ -107,13 +108,27 @@ iframe {
   margin: 0 auto;
 }
 
-.landing-image{
-height:100%
-background-position:center;
-background-repeat:no-repeat;
-background-size:cover;
+#audio-landing {
+  background-image: url('../assets/image_landings/audio-landing3.jpeg');
 }
 
-#audio-landing {
-    background-image:url('assets/image_landings/audio-landing.jpeg');
+#video-landing{
+  background-image: url('../assets/image_landings/video-landing2.jpeg');
+}
+
+#artists-landing{
+  background-image: url('../assets/image_landings/artists-landing.jpeg');
+}
+
+.landing-image {
+  height: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#manifesto{
+  background-size:cover;
+  height:100%;
+  width:100%;
 }
