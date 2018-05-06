@@ -1,8 +1,11 @@
-body {
-  /*background-image: url('../assets/index-background-2.jpeg');*/
-  background-color:black;
-  background-size: cover;
+body, html{
+  height:100%;
 }
+  /*body {
+background-image: url('../assets/index-background-2.jpeg');
+  background-color: black;
+  background-size: cover;
+}*/
 
 nav {
   background-color: black !important;
@@ -10,7 +13,7 @@ nav {
 
 @keyframes colorblocks1 {
   0% {
-    background-color:  	#9C7C38;
+    background-color: #9C7C38;
   }
   25% {
     background-color: #AF6E4D;
@@ -19,7 +22,7 @@ nav {
     background-color: black;
   }
   100% {
-    background-color:  	#757575;
+    background-color: #757575;
   }
 }
 
@@ -31,19 +34,19 @@ nav {
     background-color: black;
   }
   50% {
-    background-color:  	#757575;
+    background-color: #757575;
   }
   100% {
-    background-color:  	#9C7C38;
+    background-color: #9C7C38;
   }
 }
 
 @keyframes colorblocks3 {
   0% {
-    background-color:  	#757575;
+    background-color: #757575;
   }
   25% {
-    background-color:  	#9C7C38;
+    background-color: #9C7C38;
   }
   50% {
     background-color: #AF6E4D;
@@ -79,22 +82,22 @@ nav {
   animation-iteration-count: infinite;
 }
 
-.innerdiv{
-  width:50%;
+.innerdiv {
+  width: 50%;
   background-color: gray;
   margin: 0 auto;
-  animation-name:colorblocks2;
+  animation-name: colorblocks2;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 
-.innerinnerdiv{
-  width:50%;
+.innerinnerdiv {
+  width: 50%;
   background-color: gray;
   margin: 0 auto;
-  border-width:medium;
+  border-width: medium;
   border-color: white;
-  animation-name:colorblocks1;
+  animation-name: colorblocks1;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
@@ -102,4 +105,15 @@ nav {
 iframe {
   display: block;
   margin: 0 auto;
+}
+
+.landing-image{
+height:100%
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+#audio-landing {
+    background-image:url('assets/image_landings/audio-landing.jpeg');
 }
