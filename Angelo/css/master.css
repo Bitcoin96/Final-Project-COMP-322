@@ -14,46 +14,37 @@ nav {
 
 @keyframes colorblocks1 {
   0% {
-    background-color: #9C7C38;
+    background-color: red;
   }
-  25% {
-    background-color: #AF6E4D;
+  33% {
+    background-color: green;
   }
-  50% {
+  66% {
     background-color: black;
-  }
-  100% {
-    background-color: #757575;
   }
 }
 
 @keyframes colorblocks2 {
   0% {
-    background-color: #AF6E4D;
+    background-color: green;
   }
-  25% {
+  33% {
     background-color: black;
   }
-  50% {
-    background-color: #757575;
-  }
-  100% {
-    background-color: #9C7C38;
+  66% {
+    background-color: red;
   }
 }
 
 @keyframes colorblocks3 {
   0% {
-    background-color: #757575;
-  }
-  25% {
-    background-color: #9C7C38;
-  }
-  50% {
-    background-color: #AF6E4D;
-  }
-  100% {
     background-color: black;
+  }
+  33% {
+    background-color: red;
+  }
+  66% {
+    background-color: green;
   }
 }
 
