@@ -1,0 +1,55 @@
+#left{float:left;
+width: 50%;
+}
+#floatL{float:left;
+}
+#striped {
+  background: linear-gradient(0deg, green 25%, #000 25%, #000 50%, black 50%, red 75%, #000 75%);
+  background-size:120px 120px;
+}
+
+h1.fontStyle{
+	font-family:Arial;
+	color: white;
+
+}
+h2.fontStyle{
+font-family:Arial;
+	color: white;
+
+}
+p.fontStyle{
+	font-family:Arial;
+	color: white;
+	font-size: 10pt;
+}
+
+form.fontStyle{
+	font-family:Arial;
+	color: white;
+	font-size: 10pt;
+}
+figcaption.fontStyle{
+	font-family:Arial;
+	color: white;
+	font-size: 10pt;
+}
+#right{
+	float:right;
+}
+#emphasis{
+	font-style: italic;
+	text-decoration: underline;
+
+}
+#emphasis2{
+		font-style: italic;
+
+	font-weight: bold;
+	color: red;
+}
+#format{
+
+	padding-right: 25px;
+	padding-left: 25px;
+}

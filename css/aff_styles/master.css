@@ -100,15 +100,15 @@ iframe {
 }
 
 #audio-landing {
-  background-image: url('../assets/image_landings/audio-landing3.jpeg');
+  background-image: url('../../assets/aff_assets/image_landings/audio-landing3.jpeg');
 }
 
 #video-landing{
-  background-image: url('../assets/image_landings/video-landing2.jpeg');
+  background-image: url('../../assets/aff_assets/image_landings/video-landing2.jpeg');
 }
 
 #artists-landing{
-  background-image: url('../assets/image_landings/artists-landing.jpeg');
+  background-image: url('../../assets/aff_assets/image_landings/artists-landing.jpeg');
 }
 
 .landing-image {
